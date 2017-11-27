@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0C5A65711FCA0BCA00A81B4B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A65701FCA0BCA00A81B4B /* main.swift */; };
+		0C5A65781FCA0F4C00A81B4B /* PPMImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A65771FCA0F4C00A81B4B /* PPMImage.swift */; };
+		0C5A657A1FCA116600A81B4B /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A65791FCA116600A81B4B /* Object.swift */; };
+		0C5A657C1FCA3D9400A81B4B /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A657B1FCA3D9400A81B4B /* Vector.swift */; };
+		0C5A657E1FCA4DDC00A81B4B /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A657D1FCA4DDC00A81B4B /* Light.swift */; };
+		0C5A65801FCA4FC400A81B4B /* Raytrace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A657F1FCA4FC400A81B4B /* Raytrace.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		0C5A656D1FCA0BCA00A81B4B /* raycast-swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "raycast-swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C5A65701FCA0BCA00A81B4B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0C5A65771FCA0F4C00A81B4B /* PPMImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPMImage.swift; sourceTree = "<group>"; };
+		0C5A65791FCA116600A81B4B /* Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
+		0C5A657B1FCA3D9400A81B4B /* Vector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
+		0C5A657D1FCA4DDC00A81B4B /* Light.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
+		0C5A657F1FCA4FC400A81B4B /* Raytrace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raytrace.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				0C5A65701FCA0BCA00A81B4B /* main.swift */,
+				0C5A65771FCA0F4C00A81B4B /* PPMImage.swift */,
+				0C5A65791FCA116600A81B4B /* Object.swift */,
+				0C5A657B1FCA3D9400A81B4B /* Vector.swift */,
+				0C5A657D1FCA4DDC00A81B4B /* Light.swift */,
+				0C5A657F1FCA4FC400A81B4B /* Raytrace.swift */,
 			);
 			path = "raycast-swift";
 			sourceTree = "<group>";
@@ -121,6 +136,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C5A65711FCA0BCA00A81B4B /* main.swift in Sources */,
+				0C5A657E1FCA4DDC00A81B4B /* Light.swift in Sources */,
+				0C5A65801FCA4FC400A81B4B /* Raytrace.swift in Sources */,
+				0C5A657A1FCA116600A81B4B /* Object.swift in Sources */,
+				0C5A657C1FCA3D9400A81B4B /* Vector.swift in Sources */,
+				0C5A65781FCA0F4C00A81B4B /* PPMImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +266,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				GCC_OPTIMIZATION_LEVEL = s;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
