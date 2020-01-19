@@ -115,10 +115,3 @@ if parallel {
 print("Writing image to file...")
 image.write(to: CommandLine.arguments[3])
 print("Completed. Time: \(Int((Date().timeIntervalSince1970 - startTime) * 1000))ms")
-
-
-
-
-
-
-

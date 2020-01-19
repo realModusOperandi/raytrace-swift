@@ -158,7 +158,7 @@ func shade(_ object: Object?, lit lights: [PointLight], at position: Vector, tow
             }
         }
         
-        if equals && fabs(shootDistance - lightDistance) < 0.1 {
+        if equals && abs(shootDistance - lightDistance) < 0.1 {
             lightPixel = directShade(object: obj, at: position, towards: direction, lit: lightDirection, color: light.color)
             
             let red = UInt8(min(255, max(0, Int(color.r) + Int(lightPixel.r))))
